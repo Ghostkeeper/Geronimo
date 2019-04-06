@@ -190,26 +190,26 @@
                  "name":"door_a",
                  "polygon":[
                         {
-                         "x":-153,
-                         "y":58.6666666666667
+                         "x":159,
+                         "y":66.6666666666667
                         }, 
                         {
-                         "x":-152.666666666667,
-                         "y":5
+                         "x":159.333333333333,
+                         "y":5.66666666666652
                         }, 
                         {
                          "x":478.333333333333,
                          "y":5.33333333333348
                         }, 
                         {
-                         "x":476.333333333333,
-                         "y":63.3333333333335
+                         "x":478.333333333333,
+                         "y":66.0000000000002
                         }],
                  "properties":[
                         {
                          "name":"offset",
                          "type":"string",
-                         "value":"50,0"
+                         "value":"25,0"
                         }],
                  "rotation":0,
                  "type":"DOOR",
@@ -395,6 +395,40 @@
                  "width":0,
                  "x":1397,
                  "y":1018
+                }, 
+                {
+                 "height":0,
+                 "id":102,
+                 "name":"door_a",
+                 "polygon":[
+                        {
+                         "x":159,
+                         "y":66.6667
+                        }, 
+                        {
+                         "x":159.333,
+                         "y":5.66667
+                        }, 
+                        {
+                         "x":478.333,
+                         "y":5.33333
+                        }, 
+                        {
+                         "x":478.333,
+                         "y":66
+                        }],
+                 "properties":[
+                        {
+                         "name":"offset",
+                         "type":"string",
+                         "value":"-25,0"
+                        }],
+                 "rotation":0,
+                 "type":"DOOR",
+                 "visible":true,
+                 "width":0,
+                 "x":1206,
+                 "y":1131.33333333333
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -950,7 +984,7 @@
          "y":0
         }],
  "nextlayerid":8,
- "nextobjectid":102,
+ "nextobjectid":103,
  "orientation":"orthogonal",
  "renderorder":"left-up",
  "tiledversion":"1.2.1",
